@@ -1,0 +1,136 @@
+body{
+    font-family: monospace, sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+    background-color: rgb(236, 217, 199);
+    overflow-x: hidden;
+   }
+  
+  h1{
+    color: rgba(5, 58, 58, 0.993);
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    font-size: 80px;
+  }
+  
+  h3{
+    font-size: 2em;
+  }
+  
+  .Indice{
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+  }
+  
+  #Foto01{
+    position: absolute;
+    top: 150px;
+    left: 220px;
+    padding 10px;
+    border: 10px solid green;
+  }
+  
+  .Apresentação{
+    position: absolute;
+    top: 750px;
+    left: 70px;
+    height: 370px;
+    text-align: justify;
+    overflow-y: auto;
+  }
+  
+  .Informações{
+    position: absolute;
+    top: 1200px;
+    left: 70px;
+    width: 87%;
+  }
+  
+  .HabilidadesTec{
+    position: absolute;
+    top: 1570px;
+    left: 70px;
+    width: 87%;
+  }
+  
+  .HabilidadesOut{
+    position: absolute;
+    top: 1980px;
+    left: 70px;
+    width: 87%;
+  }
+  
+  #RedeS{
+    position: absolute;
+    top: 2480px;
+    left: 70px;
+  } 
+  
+  #NInsta{
+    position: absolute;
+    top: 2600px;
+    left: 100px;
+    width: 87%;
+  }
+  
+  #NGit{
+    position: absolute;
+    top: 2600px;
+    left: 700px;
+    width: 87%;
+  }
+  
+  #NLink{
+    position: absolute;
+    top: 2600px;
+    left: 400px;
+    width: 87%;
+  } 
+  
+  #FInsta{
+    position: absolute;
+    top: 2660px;
+    left: 70px;
+    width: 87%;
+  }
+  
+  #FGit{
+    position: absolute;
+    top: 2660px;
+    left: 680px;
+    width: 87%;
+  }
+  
+  #FLink{
+    position: absolute;
+    top: 2660px;
+    left: 395px;
+    width: 87%;
+  }
+  
+  #fim{
+    position: absolute;
+    top: 2850px;
+    left: 400px;
+    width: 87%;
+  }
+  
+  #Foto02{
+    position: absolute;
+    top: 3000px;
+    left: 100px;
+  }
+  
+  .Voltar{
+    position: absolute;
+    top: 3080px;
+    left: 1200px;
+  }
+
+  #Trybe{
+    color: green;
+  }
