@@ -20,6 +20,13 @@ body{
     font-size: 2em;
     color: rgb(4, 73, 4);
   }
+
+  #hab, #habout, #IG, #RedeS, #Apr{
+    background-color: lightgreen;
+    margin: 20xp;
+    width: 500px;
+    padding: 10px;
+  }
   
   .Indice{
     position: absolute;
@@ -59,98 +66,99 @@ body{
     position: absolute;
     top: 800px;
     left: 70px;
-    height: 370px;
+    height: 500px;
     text-align: justify;
     overflow-y: auto;
+    width: 95%;
   }
   
   .Informações{
     position: absolute;
-    top: 1200px;
+    top: 1300px;
     left: 70px;
     width: 87%;
   }
   
   .HabilidadesTec{
     position: absolute;
-    top: 1570px;
+    top: 1850px;
     left: 70px;
     width: 87%;
   }
   
   .HabilidadesOut{
     position: absolute;
-    top: 1980px;
+    top: 2350px;
     left: 70px;
     width: 87%;
   }
   
   #RedeS{
     position: absolute;
-    top: 2480px;
+    top: 2900px;
     left: 70px;
   } 
   
   #NInsta{
     position: absolute;
-    top: 2600px;
+    top: 3070px;
     left: 100px;
     width: 87%;
   }
   
   #NGit{
     position: absolute;
-    top: 2600px;
+    top: 3070px;
     left: 700px;
     width: 87%;
   }
   
   #NLink{
     position: absolute;
-    top: 2600px;
+    top: 3070px;
     left: 400px;
     width: 87%;
   } 
   
   #FInsta{
     position: absolute;
-    top: 2660px;
+    top: 3180px;
     left: 70px;
     width: 87%;
   }
   
   #FGit{
     position: absolute;
-    top: 2660px;
+    top: 3180px;
     left: 680px;
     width: 87%;
   }
   
   #FLink{
     position: absolute;
-    top: 2660px;
+    top: 3180px;
     left: 395px;
     width: 87%;
   }
   
   #fim{
     position: absolute;
-    top: 2850px;
-    left: 400px;
+    top: 3400px;
+    left: 445px;
     width: 87%;
   }
   
   #Foto02{
     position: absolute;
-    top: 3000px;
+    top: 3500px;
     left: 100px;
     padding: 50px;
   }
   
   .Voltar{
     position: absolute;
-    top: 3080px;
-    left: 1200px;
+    top: 3600px;
+    left: 1300px;
   }
 
   #Trybe{
@@ -160,7 +168,7 @@ body{
    #Curios{
     width: 400px;
     position: absolute;
-    top: 1250px;
+    top: 1350px;
     left: 1400px;
     color: rgb(49, 84, 112);
     text-align: right;
@@ -169,3 +177,4 @@ body{
     background-color: rgb(233, 229, 222);
   }
 
+  
