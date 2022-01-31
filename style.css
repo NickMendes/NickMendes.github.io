@@ -4,7 +4,7 @@ body{
     line-height: 40px;
     background-color: rgb(236, 217, 199);
     overflow-x: hidden;
-    max-width: 1980px;
+    max-width: 1900px;
    }
   
   h1{
@@ -71,7 +71,6 @@ body{
     height: 500px;
     text-align: left;
     overflow-y: auto;
-    width: 90%;
   }
   
   .Informações{
@@ -178,5 +177,6 @@ body{
     padding: 20px;
     background-color: rgb(233, 229, 222);
   }
+
 
   
