@@ -10,10 +10,9 @@
    #Nome{
      display: flex;
      flex-basis: 100px;
-     align-items: center;
-     justify-content: center;
+     justify-content: space-around;
      border: solid 3px salmon;
-     padding: 20px;
+     padding: 40px;
      background-color: salmon;
      border-radius: 15px;
    }
@@ -27,6 +26,7 @@
      align-self: center;
      margin-right: 100px;
      flex-shrink: 1;
+     border-radius: 20px;
    }
 
    .Indice{
@@ -49,14 +49,42 @@
   }
 
   .RedeS{
-    border: solid 1px black;
     width: 600px;
     
   }
   
   #redesT{
-  margin-left: 50px;
+  margin-left: 30px;
   }
+  
+  footer{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: space-around;
+  }
+
+  .Final{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 100px;
+  }
+
+  .Voltar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+  /* #Foto02{
+    margin-left: 40px;
+    margin-right: 100px;
+  } */
    
 /*   
   h1{
