@@ -1,6 +1,4 @@
 import { Link } from 'react-router-dom';
-// import LinkedIn from '../Imagens/LinkedIn.png';
-// import GitHub from '../Imagens/GitHub.png';
 
 function Header() {
   return (
@@ -13,12 +11,12 @@ function Header() {
 
       <div>
         <a href="https://www.linkedin.com/in/marina-mendess/" target="_blank" rel="noreferrer">
-          {/* <img scr={ LinkedIn } alt="Logo Linkedin"/> */}
+          {/* <img scr="../Imagens/linkedin" alt="Logo Linkedin"/> */}
           <p>LinkedIn</p>
         </a>
 
         <a href="https://github.com/Nicksam97" target="_blank" rel="noreferrer">
-          {/* <img scr={ GitHub } alt="Logo GitHub"/> */}
+          {/* <img scr={require('../Imagens/GitHub.png')} alt="Logo GitHub"/> */}
           <p>GitHub</p>
         </a>
       </div>

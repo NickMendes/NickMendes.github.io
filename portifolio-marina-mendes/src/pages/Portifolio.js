@@ -1,6 +1,17 @@
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+
 function Portifolio() {
   return (
-    <h2>mais uma coisa</h2>
+    <div className="port-all">
+      <Header />
+      <div className="port-main">
+        <h2>mais uma co
+          isa
+        </h2>
+      </div>
+      <Footer />
+    </div>
   )
 }
 

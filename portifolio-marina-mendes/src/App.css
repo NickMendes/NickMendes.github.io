@@ -1,17 +1,25 @@
 .App {
   text-align: center;
-  background-image: url(https://www.publicdomainpictures.net/pictures/130000/nahled/green-gradient-background-2.jpg);
+  /* background-image: url(https://www.publicdomainpictures.net/pictures/130000/nahled/green-gradient-background-2.jpg); */
+  background-color: rgb(200, 249, 237);
   background-size: cover;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   min-height: 1000px;
 }
 
 .header-all {
-  /* background-image: url(https://i.pinimg.com/originals/be/45/06/be45060188b011b89697caf899e36445.png); */
+  background-image: url(https://i.pinimg.com/originals/be/45/06/be45060188b011b89697caf899e36445.png);
   align-items: center;
-  background-color: rgba(11, 97, 15, 0.696);
-  border: solid 1px black;
   display: flex;
+  font-size: larger;
   justify-content: space-between;
+  padding: 30px 30px;
+}
+
+.footer-all {
+  background-image: url(https://i.pinimg.com/originals/be/45/06/be45060188b011b89697caf899e36445.png);
+  display: flex;
+  justify-content: flex-end;
   padding: 20px 30px;
 }
 
@@ -27,9 +35,20 @@ a:link {
   flex-direction: column;
 }
 
+.main-main {
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  gap: 30px;
+  margin: 20px 200px;
+  max-width: 80%;
+  min-height: 800px;
+}
+
 .main-btns-area {
   display: flex;
   justify-content: space-around;
+  margin-top: 300px;
 }
 
 /* p {
@@ -40,4 +59,58 @@ a:link {
 
 a:hover {
   color: red;
+}
+
+a:visited {
+  color: black;
+}
+
+.curr-all {
+  /* align-items: baseline; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.curr-main {
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  gap: 30px;
+  margin: 20px 200px;
+  max-width: 80%;
+}
+
+.foto-perfil {
+  max-width: 300px;
+}
+
+.about-all {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-main {
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  gap: 30px;
+  margin: 20px 200px;
+  max-width: 80%;
+  min-height: 800px;
+}
+
+.port-all {
+  display: flex;
+  flex-direction: column;
+}
+
+.port-main {
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  gap: 30px;
+  margin: 20px 200px;
+  max-width: 80%;
+  min-height: 800px;
 }
