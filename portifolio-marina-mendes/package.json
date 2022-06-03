@@ -38,5 +38,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://username.github.io/app-toot-name"   
+  "homepage": "https://username.github.io/app-toot-name",
+  "resolutions": {
+    "styled-components": "^5"
+  }   
 }

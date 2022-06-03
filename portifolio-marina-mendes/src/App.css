@@ -1,38 +1,43 @@
 .App {
   text-align: center;
+  background-image: url(https://www.publicdomainpictures.net/pictures/130000/nahled/green-gradient-background-2.jpg);
+  background-size: cover;
+  min-height: 1000px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-all {
+  /* background-image: url(https://i.pinimg.com/originals/be/45/06/be45060188b011b89697caf899e36445.png); */
+  align-items: center;
+  background-color: rgba(11, 97, 15, 0.696);
+  border: solid 1px black;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-all {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-btns-area {
+  display: flex;
+  justify-content: space-around;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* p {
+  color: black;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+} */
+
+a:hover {
+  color: red;
 }
