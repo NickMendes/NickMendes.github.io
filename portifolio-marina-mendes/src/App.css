@@ -16,6 +16,10 @@
   padding: 30px 30px;
 }
 
+.name {
+  font-size: 50px;
+}
+
 .footer-all {
   background-image: url(https://i.pinimg.com/originals/be/45/06/be45060188b011b89697caf899e36445.png);
   display: flex;

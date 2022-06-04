@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <div className="footer-all">
-      <p>Marina Mendes®</p>
+      <p>Marina Mendes ®</p>
     </div>
   )
 }

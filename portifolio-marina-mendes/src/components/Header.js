@@ -7,7 +7,7 @@ function Header() {
         <h3>Home</h3>
       </Link>
 
-      <h1>Marina Mendes</h1>
+      <h1 className="name">MARINA MENDES</h1>
 
       <div>
         <a href="https://www.linkedin.com/in/marina-mendess/" target="_blank" rel="noreferrer">
