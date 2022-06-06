@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   /* background-image: url(https://www.publicdomainpictures.net/pictures/130000/nahled/green-gradient-background-2.jpg); */
-  background-color: rgb(200, 249, 237);
+  background-color: rgb(202, 250, 238);
   background-size: cover;
   font-family: Georgia, 'Times New Roman', Times, serif;
   min-height: 1000px;
@@ -16,15 +16,33 @@
   padding: 30px 30px;
 }
 
+.header-imgs {
+  background-color: white;
+  border: solid 2px rosybrown;
+  padding: 8px;
+}
+
 .name {
   font-size: 50px;
+}
+
+.img-logo {
+  max-width: 80px;
+  padding: 3px;
 }
 
 .footer-all {
   background-image: url(https://i.pinimg.com/originals/be/45/06/be45060188b011b89697caf899e36445.png);
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding: 20px 30px;
+}
+
+.img-footer {
+  border: solid 2px rgb(67, 151, 193);
+  background-color: white;
+  padding: 3px;
+  max-width: 50px;
 }
 
 a:link {
@@ -95,6 +113,7 @@ a:visited {
 }
 
 .about-main {
+  align-items: center;
   display: flex;
   flex-direction: column;
   font-size: larger;
@@ -110,6 +129,7 @@ a:visited {
 }
 
 .port-main {
+  align-items: center;
   display: flex;
   flex-direction: column;
   font-size: larger;
@@ -117,4 +137,8 @@ a:visited {
   margin: 20px 200px;
   max-width: 80%;
   min-height: 800px;
+}
+
+.nada {
+  color: rgba(114, 74, 74, 0.596);
 }

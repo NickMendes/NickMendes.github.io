@@ -9,18 +9,7 @@ function Header() {
 
       <h1 className="name">MARINA MENDES</h1>
 
-      <div>
-        <a href="https://www.linkedin.com/in/marina-mendess/" target="_blank" rel="noreferrer">
-          {/* <img scr="../Imagens/linkedin" alt="Logo Linkedin"/> */}
-          <p>LinkedIn</p>
-        </a>
-
-        <a href="https://github.com/Nicksam97" target="_blank" rel="noreferrer">
-          {/* <img scr={require('../Imagens/GitHub.png')} alt="Logo GitHub"/> */}
-          <p>GitHub</p>
-        </a>
-      </div>
-      
+      <h2 className="nada">.</h2>      
     </header>
   )
 }
