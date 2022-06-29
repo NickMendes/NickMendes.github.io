@@ -1,11 +1,8 @@
-import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 function Curriculo() {
   return (
     <div className="curr-all">
-      <Header />
-      
       <div className="curr-main">
         <h1>Desenvolvedora Web & Engenheira Civil</h1>
 

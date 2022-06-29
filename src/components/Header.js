@@ -7,7 +7,7 @@ function Header() {
         <h3>Home</h3>
       </Link>
 
-      <h1 className="name">MARINA MENDES</h1>
+      <h1 className="name">NICK MENDES</h1>
 
       <h2 className="nada">.</h2>      
     </header>

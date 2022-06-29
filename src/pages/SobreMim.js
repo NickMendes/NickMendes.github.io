@@ -1,20 +1,17 @@
 import Footer from "../components/Footer";
-import Header from "../components/Header";
 
 function SobreMim() {
   return (
     <div className="about-all">
-      <Header />
-
       <div className="about-main">
-        <img src="https://pps.whatsapp.net/v/t61.24694-24/220819101_1693323334355083_2347323801895540830_n.jpg?ccb=11-4&oh=01_AVwX0Txp2UNv7uyt9GltmwnBjLHlw5COtJlBDmE5HJGzag&oe=62AF8AF4" alt="Foto de Marina Mendes" className="foto-perfil"/>
+        <img src="https://pps.whatsapp.net/v/t61.24694-24/220819101_1693323334355083_2347323801895540830_n.jpg?ccb=11-4&oh=01_AVwpMM5hxTQrMukkAc5R68_vWfPZRi2zaKG369GQ__oBOg&oe=62C9E8F4" alt="Foto da Nick" className="foto-perfil"/>
 
         <div className="contato">
           <h2>Informações de contato</h2>
           <li>Idade: 25</li>
           <li>Contagem / MG</li>
           <li>Tel: (31)9.9802-2242</li>
-          <li>Email: marina@sirq.com.br</li>
+          <li>Email: nick--mendes@outllok.com</li>
         </div>
 
         <div className="redes">
@@ -26,7 +23,7 @@ function SobreMim() {
           </li>
 
           <li>
-            <a href="https://github.com/Nicksam97" target="_blank" rel="noreferrer">
+            <a href="https://github.com/NickMendes/" target="_blank" rel="noreferrer">
               <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" className="img-logo" alt="Logo do GitHub"/>
             </a>
           </li>
